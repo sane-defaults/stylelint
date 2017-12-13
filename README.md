@@ -43,22 +43,26 @@ button:disabled {
 * Maximum of 1 empty line between blocks is allowed.
 * Use [the one true brace style](https://en.wikipedia.org/wiki/Indentation_style#Variant:_1TBS_.28OTBS.29).
 * Use double quotes for strings (e.g. `input[type="radio"]`).
-* No leading or trailing zeros in decimals (e.g. `.5em`).
+* Use leading zeros in decimals (e.g. `0.5em`).
 * No units for zero lengths (e.g. `margin: 0`).
 
 ### Declarations
 
+* Custom properties (variables) must be hyphenated and lowercased.
 * Properties, colours, units, pseudo-classes, and -elements must be lowercased.
 * Properties must be ordered as described in [SMACSS](https://smacss.com/book/formatting#grouping). Order configuration taken from [scss-lint](https://github.com/brigade/scss-lint/blob/master/data/property-sort-orders/smacss.txt).
 * Shorthands must be used where possible (e.g. `margin: 1em` instead of `margin: 1em 1em`).
 * Colours in hex must use long notation (e.g. `#ff00dd`).
 * A generic family name must be provided in font-family (e.g. `sans-serif`).
+* Use numeric notation for font-weight (e.g. `400`).
 * No duplicate or redundant property declarations.
 * No vendor prefixes (use [autoprefixer](https://github.com/postcss/autoprefixer)).
 * No `!important`.
 
 ### Selectors
 
+* Class selectors must be hyphenated and lowercased, or follow [BEM convention](http://getbem.com/naming/).
+* Id selectors must be hyphenated and lowercased.
 * One selector per line.
 * Attribute selectors must use quotes (e.g. `input[type="search"]`).
 * Selectors must not be repeated in the same file (should be merged).
@@ -66,6 +70,7 @@ button:disabled {
 
 ### SCSS
 
+* Variables, mixins, placeholders, and functions must be hyphenated and lowercased.
 * Calls with no arguments must not use parentheses (e.g. `@include mixin-name`).
 * Operators must be surrounded by spaces (e.g. `$a * $b`).
 * No redundant parent selector (`&`) when nesting (e.g. `p { > a { } }`).
