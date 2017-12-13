@@ -30,6 +30,7 @@
         "color-no-invalid-hex": true,
         "comment-no-empty": true,
         "comment-whitespace-inside": "always",
+        "custom-property-pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
         "declaration-bang-space-after": "never",
         "declaration-bang-space-before": "always",
         "declaration-block-no-duplicate-properties": true,
@@ -104,6 +105,13 @@
         "selector-attribute-operator-space-after": "never",
         "selector-attribute-operator-space-before": "never",
         "selector-attribute-quotes": "always",
+        "selector-class-pattern": [
+            "^[a-z][a-z0-9]*((-{1,2}|_{2})[a-z0-9]+)*$",
+            {
+                "resolveNestedSelectors": true
+            }
+        ],
+        "selector-id-pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
         "selector-combinator-space-after": "always",
         "selector-combinator-space-before": "always",
         "selector-descendant-combinator-no-non-space": true,
@@ -487,14 +495,18 @@
         "scss/at-else-empty-line-before": "never",
         "scss/at-else-if-parentheses-space-before": "always",
         "scss/at-function-parentheses-space-before": "never",
+        "scss/at-function-pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
         "scss/at-if-closing-brace-newline-after": "always-last-in-chain",
         "scss/at-if-closing-brace-space-after": "always-intermediate",
         "scss/at-import-no-partial-leading-underscore": true,
         "scss/at-mixin-argumentless-call-parentheses": "never",
         "scss/at-mixin-parentheses-space-before": "never",
+        "scss/at-mixin-pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
         "scss/declaration-nested-properties-no-divided-groups": true,
         "scss/dollar-variable-colon-space-before": "never",
+        "scss/dollar-variable-pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
         "scss/operator-no-unspaced": true,
+        "scss/percent-placeholder-pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
         "scss/selector-no-redundant-nesting-selector": true
     }
 }
