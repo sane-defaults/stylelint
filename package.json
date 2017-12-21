@@ -1,0 +1,27 @@
+{
+  "name": "@sane-defaults/stylelint",
+  "version": "1.0.0",
+  "description": "Sane default configuration for stylelint with SCSS",
+  "author": "sane-defaults",
+  "license": "MIT",
+  "homepage": "https://github.com/sane-defaults/stylelint#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sane-defaults/stylelint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sane-defaults/stylelint/issues"
+  },
+  "keywords": [
+    "stylelint",
+    "config",
+    "sane",
+    "defaults"
+  ],
+  "main": ".stylelintrc.js",
+  "peerDependencies": {
+    "stylelint": ">=8.4.0",
+    "stylelint-order": ">=0.8.0",
+    "stylelint-scss": ">=2.2.0"
+  }
+}

@@ -1,16 +1,33 @@
-# Sane default configuration for [stylelint](https://github.com/stylelint/stylelint)
+# Sane default configuration for [stylelint](https://github.com/stylelint/stylelint) with SCSS
 
 Stylelint is used for linting and fixing CSS, including preprocessor syntaxes like Sass, SCSS, SugarCSS, Less.
 
 ## Installation
 
-1. Move `.stylelintrc` to your project root.
-2. Run:
-    ```shell
-    yarn add -D stylelint stylelint-order stylelint-scss
-    # or
-    npm install -D stylelint stylelint-order stylelint-scss
-    ```
+There are two installation options:
+
+1. Via [@sane-defaults/stylelint](https://www.npmjs.com/package/@sane-defaults/stylelint) package:
+    1. Install it and add as a dev-dependency
+        ```shell
+        yarn add @sane-defaults/stylelint --dev
+        # or
+        npm install @sane-defaults/stylelint --save-dev
+        ```
+    2. Create your [local configuration](https://stylelint.io/user-guide/configuration/) and set it to extend this one:
+        ```json
+        {
+          "extends": "@sane-defaults/stylelint"
+        }
+        ```
+2. Download and move `.stylelintrc.js` file to your project root.
+
+Next, install stylelint and its plugins:
+
+```shell
+yarn add stylelint stylelint-order stylelint-scss --dev
+# or
+npm install stylelint stylelint-order stylelint-scss --save-dev
+```
 
 ## Usage
 
