@@ -40,7 +40,6 @@ module.exports = {
         'declaration-block-semicolon-space-after': 'always-single-line',
         'declaration-block-semicolon-space-before': 'never',
         'declaration-block-trailing-semicolon': 'always',
-        'declaration-colon-newline-after': 'always-multi-line',
         'declaration-colon-space-after': 'always-single-line',
         'declaration-colon-space-before': 'never',
         'declaration-no-important': true,
@@ -57,16 +56,11 @@ module.exports = {
         'function-max-empty-lines': 1,
         'function-name-case': 'lower',
         'function-parentheses-newline-inside': 'always-multi-line',
-        'function-parentheses-space-inside': 'never',
+        'function-parentheses-space-inside': 'never-single-line',
         'function-url-no-scheme-relative': true,
         'function-url-quotes': 'always',
         'function-whitespace-after': 'always',
-        'indentation': [
-            4,
-            {
-                'indentInsideParens': 'once-at-root-twice-in-block'
-            }
-        ],
+        'indentation': 4,
         'keyframe-declaration-no-important': true,
         'length-zero-no-unit': true,
         'max-empty-lines': 1,
@@ -142,7 +136,6 @@ module.exports = {
         'string-quotes': 'double',
         'unit-case': 'lower',
         'unit-no-unknown': true,
-        'value-list-comma-newline-after': 'always-multi-line',
         'value-list-comma-newline-before': 'never-multi-line',
         'value-list-comma-space-after': 'always-single-line',
         'value-list-comma-space-before': 'never',
