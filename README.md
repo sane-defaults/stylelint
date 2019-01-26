@@ -1,4 +1,5 @@
 # Sane default configuration for [stylelint](https://github.com/stylelint/stylelint) with SCSS
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 Stylelint is used for linting and fixing CSS, including preprocessor syntaxes like Sass, SCSS, SugarCSS, Less.
 
@@ -91,3 +92,15 @@ button:disabled {
 * Calls with no arguments must not use parentheses (e.g. `@include mixin-name`).
 * Operators must be surrounded by spaces (e.g. `$a * $b`).
 * No redundant parent selector (`&`) when nesting (e.g. `p { > a { } }`).
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars1.githubusercontent.com/u/3495587?v=4" width="100px;" alt="Grzegorz Rajchman"/><br /><sub><b>Grzegorz Rajchman</b></sub>](https://github.com/mrliptontea)<br />[💻](https://github.com/sane-defaults/stylelint/commits?author=mrliptontea "Code") [📖](https://github.com/sane-defaults/stylelint/commits?author=mrliptontea "Documentation") [🤔](#ideas-mrliptontea "Ideas, Planning, & Feedback") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
